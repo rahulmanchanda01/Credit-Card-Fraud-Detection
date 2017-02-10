@@ -14,7 +14,9 @@ We would like to test various sampling techniques that would work in case of ske
 
 
 
-************************************************************************8
+************************************************************************
+
+#Here is my approach to solve this problem
 
 1)	Basic dataset information and visualization
 
