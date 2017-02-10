@@ -5,6 +5,7 @@ We would like to test various sampling techniques that would work in case of ske
 1)	Basic dataset information and visualization
 
 2)	Basic modeling
+
 a.	Logistic model on the entire dataset (Train and Test)
 b.	Logistic model on the SMOTE dataset
 c.	Running the SMOTE model on the entire dataset
@@ -20,13 +21,15 @@ d.	ROSE
 We will model on all these 4 datasets to see which one is a better method for this data
 
 4)	Advanced modeling
+
 a.	Decision tree on all 4 datasets
 b.	Random forest on all 4 datasets
 c.	SVM on all 4 (with hyper-parameter tuning) 
 d.	XGBoost on all 4 (with hyper-parameter tuning)
 
 5)	Model selection and variable importance
-a.	Considering the logistic as the base model, we will evaluate all the models built in step 3 to choose the best model
+
+a.	Considering the Decison tree as the base model, we will evaluate all the models built in step 3 to choose the best model
 b.	We will apply the best model on the entire dataset to get the evaluation metrics
 c.	Identify the most important variables
 
